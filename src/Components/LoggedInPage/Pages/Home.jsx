@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="big2">
       <div className="divcenter">
-        <video width="100%" height="100%" muted autoPlay loop>
+        <video width="100%" height="100%" className="videonew" muted autoPlay loop>
           <source src="Video/nikeair.mp4" type="video/mp4" />
         </video>
       </div>

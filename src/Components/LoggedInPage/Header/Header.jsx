@@ -5,7 +5,8 @@ function Header() {
     <div className="Big">
       <div className="div-menu">
         <div className="div-one">
-          <ul>
+          <div className="new-11">
+          <ul className="ul-nike">
             <img
               src="https://www.svgrepo.com/show/303214/nike-4-logo.svg"
               alt=""
@@ -23,7 +24,12 @@ function Header() {
               <li className="li1">Basket</li>
               <div className="gic"></div>
             </NavLink>
+            <NavLink to="/about">
+              <li className="li1">About</li>
+              <div className="gic"></div>
+            </NavLink>
           </ul>
+        </div>
         </div>
 
         <div className="div-tree">

@@ -6,6 +6,7 @@ import Product from "./Pages/Product";
 import Create from "./Pages/Create";
 import Basket from "./Pages/Basket";
 import Home from "./Pages/Home";
+import About from "./Pages/About";
 
 function LoggedInPage({ users, setUsers }) {
   return (
@@ -23,6 +24,11 @@ function LoggedInPage({ users, setUsers }) {
           exact
           path="/product"
           element={<Create users={users} setUsers={setUsers} />}
+        />
+        <Route
+          exact
+          path="/about"
+          element={<About users={users} setUsers={setUsers}/>}
         />
       </Routes>
     </div>

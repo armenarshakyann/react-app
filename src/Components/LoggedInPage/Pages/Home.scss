@@ -362,3 +362,61 @@ a {
     #newicn{
       color: black;
     }
+
+    @media only screen and (max-width: 600px) {
+
+            .pt{
+  color: white;
+         margin-bottom: -5%;
+            }
+            .plite{
+                 color: white;
+            }
+            .shop{
+                 margin: 0;
+                 background-color: white;
+                 color: black;
+            }
+            .areas1 {
+                height: 100%
+            }
+            .areas2 {
+                height: 100%
+            }
+            .areas3 {
+                height: 100%
+            }
+            .peoples-i{
+              height: 100%;
+            }
+            .peoples-i2{
+              height: 100%;
+            }
+            .peoples-i3{
+              height: 100%;
+            }
+            .orangediv{
+              height: 100%;
+            }
+            .orangediv2{
+              height: 100%;
+            }
+            .orangediv3{
+              height: 100%;
+            }
+              .buy{
+                width: 40%;
+                padding: 10px;
+                margin-bottom: 5%;
+              }
+              .airsimg{
+                width: 100%;
+              }
+              .div-tree{
+                  margin-left: 25%;
+              }
+              .videonew{
+                width: 100%;
+              }
+           
+    }

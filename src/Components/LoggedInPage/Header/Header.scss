@@ -87,3 +87,34 @@ a {
 .marketpng {
   width: 5%;
 }
+
+@media only screen and (max-width: 600px) {
+    .ul-nike{
+
+     padding: 0;
+     margin: 0;
+
+    }
+    .nikelogo{
+       width: 25%;
+    }
+    .gic{
+     width: 80px;
+    }
+      .div-menu{
+        display: block;
+
+   
+
+      }
+      .div-one{
+        display: flex;
+      
+
+      }
+    
+
+
+
+ 
+}
