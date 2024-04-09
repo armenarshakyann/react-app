@@ -3,11 +3,13 @@ import "./Home.scss";
 
 function Home() {
   return (
+    <div class="container">
     <div className="big2">
       <div className="divcenter">
-        <video width="100%" height="100%" className="videonew" muted autoPlay loop>
+        {/* <video width="100%" height="100%" className="videonew" muted autoPlay loop>
           <source src="Video/nikeair.mp4" type="video/mp4" />
-        </video>
+        </video> */}
+        <img src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_1470,c_limit/49d292c4-f9ba-4e45-b4b5-9aebcacdf28e/nike-just-do-it.jpg" alt="" className="newnike" />
       </div>
       <div className="product-title">
         <div className="divt">
@@ -18,7 +20,7 @@ function Home() {
           </p>
           <div className="btndiv">
             <NavLink to="/product">
-              <button className="shop">Shop</button>
+              <button className="shopnew">Shop the Collection</button>
             </NavLink>
           </div>
         </div>
@@ -30,27 +32,56 @@ function Home() {
         <div className="div-photos">
           <div className="first-divs">
             <img
-              src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_451,c_limit/49355697-e916-43bb-a168-ae2a7a9e9a93/nike-just-do-it.jpg"
+              src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_451,c_limit/3d060072-a7bd-4355-b709-f31eff32b4b3/nike-just-do-it.jpg"
+              alt=""
+              className="ph8"
+            />
+            
+          </div>
+          <div className="first-divs">
+            <img
+              src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_451,c_limit/db9cbc8a-6c8b-4b27-b1a2-d8bfa1f90a8a/nike-just-do-it.jpg"
               alt=""
               className="ph8"
             />
           </div>
           <div className="first-divs">
             <img
-              src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_451,c_limit/9ff6625e-1c65-4ca2-b492-75ea43f27d12/nike-just-do-it.jpg"
-              alt=""
-              className="ph8"
-            />
-          </div>
-          <div className="first-divs">
-            <img
-              src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_451,c_limit/3421fd64-6730-4934-ab31-75d008f13a97/nike-just-do-it.jpg"
+              src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_451,c_limit/fc6bc24a-162e-4be8-97fa-3ce949f8ec06/nike-just-do-it.jpg"
               alt=""
               className="ph8"
             />
           </div>
         </div>
       </div>
+          <div className="divbg">
+            <div className="divbgtitle">
+                <p className="pimgtitle">Featured</p>
+            </div>
+
+                <div className="divbgbig">
+                     <div className="divbgone">
+                        <div className="bgp">
+                       <p className="pbg1">Nike Alphafly 3</p>
+                       <p className="pbg2">Push Beyond What’s Possible</p>
+                       <NavLink to="/womenshoes">
+                       <button className="shop2">Shop</button>
+                       </NavLink>
+                       </div>
+                     </div>
+                     <div className="divbgtwo">
+                     <div className="bgp">
+                       <p className="pbg1">Nike Alphafly 3</p>
+                       <p className="pbg2">Push Beyond What’s Possible</p>
+
+                       <NavLink to="/kidsshoes">
+                       <button className="shop2">Shop</button>
+                       </NavLink>
+                     
+                       </div>
+                     </div>
+                </div>
+          </div>
       <div className="airslength">
         <div className="div-txt">
           <p className="airs">Shop Our Icons</p>
@@ -99,7 +130,7 @@ function Home() {
             </NavLink>
           </div>
           <div className="areas2">
-          <NavLink to="/product">
+          <NavLink to="/footballshoes">
             <button className="footballbtn">Football</button>
             </NavLink>
           </div>
@@ -118,7 +149,7 @@ function Home() {
         <div className="trending-div">
           <div className="trending-prod">
             <img
-              src="       https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/10186317-8ced-4b16-8750-6a0cd660ea25/court-borough-low-recraft-older-shoes-M6Jbw2.png"
+              src="https://static.nike.com/a/images/t_PDP_864_v1,f_auto,q_auto:eco/10186317-8ced-4b16-8750-6a0cd660ea25/court-borough-low-recraft-older-shoes-M6Jbw2.png"
               alt=""
               className="imgtrending"
             />
@@ -216,6 +247,7 @@ function Home() {
           </p>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -14,33 +14,40 @@ function Product() {
         <p className="pnew">{item.text}</p>
         <p className="pnew">{item.price}</p>
         <div className="countdiv">
-          <button
+        <button
             className="plusminus"
-            onClick={(item) => {
-              theme.dispatch({
-                type: "minus",
-                payload: {
-                  count: item.count - 1,
-                },
-              });
-            }}
-          >
-            -
-          </button>
-          <p className="pnew2">{item.count}</p>
-          <button
-            className="plusminus"
-            onClick={(item) => {
-              theme.dispatch({
-                type: "plus",
-                payload: {
-                  count: item.count + 1,
-                },
-              });
-            }}
-          >
-            +
-          </button>
+              onClick={() => {
+                if(item.count >1){
+
+                theme.dispatch({
+                  type:"editCount",
+                  peyload:{
+                    ...item,
+                    count: item.count -1
+                  }
+                 })
+                }
+
+              }}
+            >
+              -
+            </button>
+            <p className="pnew2">{item.count}</p>
+            <button
+             className="plusminus"
+              onClick={() => {
+                theme.dispatch({
+                type:"editCount",
+                peyload:{
+                  ...item,
+                  count: item.count +1
+                }
+               })
+                // console.log(bascont.count);
+              }}
+            >
+              +
+            </button>
         </div>
         <button
           className="button"

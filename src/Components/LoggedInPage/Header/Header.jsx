@@ -1,3 +1,4 @@
+import List from "../Pages/List";
 import "./Header.scss";
 import { NavLink } from "react-router-dom";
 function Header() {
@@ -7,11 +8,14 @@ function Header() {
         <div className="div-one">
           <div className="new-11">
           <ul className="ul-nike">
+                 
             <img
               src="https://www.svgrepo.com/show/303214/nike-4-logo.svg"
               alt=""
               className="nikelogo"
             />
+  
+       
             <NavLink to="/home">
               <li className="li1">Home</li>
               <div className="gic"></div>
@@ -20,6 +24,20 @@ function Header() {
               <li className="li1">Product</li>
               <div className="gic"></div>
             </NavLink>
+            <NavLink to="/womenshoes">
+              <li className="li1">Women</li>
+              <div className="gic"></div>
+            </NavLink>
+            <NavLink to="/menshoes">
+              <li className="li1">Men</li>
+              <div className="gic"></div>
+            </NavLink>
+            <NavLink to="/kidsshoes">
+              <li className="li1">Kids</li>
+              <div className="gic"></div>
+            </NavLink>
+
+
             <NavLink to="/basket">
               <li className="li1">Basket</li>
               <div className="gic"></div>
@@ -28,6 +46,7 @@ function Header() {
               <li className="li1">About</li>
               <div className="gic"></div>
             </NavLink>
+        
           </ul>
         </div>
         </div>
@@ -45,8 +64,11 @@ function Header() {
          <a href="https://www.pinterest.com/nike/">
           <i class="fa fa-pinterest" aria-hidden="true" id="newicn" style={{ fontSize: 30, margin: 20 }}></i>
           </a>
+          <List/>
         </div>
+
       </div>
+    
 
       <div className="divbg"></div>
     </div>

@@ -1,9 +1,9 @@
 body {
-  background-image: url("https://cloudfront-us-east-2.images.arcpublishing.com/reuters/YC333JKSXFIDBPSJ5ST2T25XWE.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+   background-color: #ffffff;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
+
 }
 
 .img1 {
@@ -29,6 +29,10 @@ ul {
   display: flex;
   justify-content: space-around;
   background-color: white;
+
+  
+
+ 
 }
 
 .div-one {
@@ -66,6 +70,8 @@ a {
   }
 }
 
+  
+
 //
 
 .now {
@@ -76,7 +82,10 @@ a {
 }
 
 .nikelogo {
-  width: 15%;
+ width: 15%;
+
+
+
 }
 
 .gic {

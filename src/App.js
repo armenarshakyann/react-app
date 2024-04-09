@@ -31,23 +31,32 @@ function App() {
         });
       }
     }
-    if (action.type === "plus") {
-      return state.map((item) => {
-        return { ...item, count: item.count + 1 };
-      });
-    }
-    if (action.type === "minus") {
-      return state.map((item) => {
-        if (item.count === 1) {
-          return item;
-        } else {
-          return { ...item, count: item.count - 1 };
-        }
-      });
-    }
+    // if (action.type === "plus") {
+    //   return state.map((item) => {
+    //     return { ...item, count: item.count + 1 };
+    //   });
+    // }
+    // if (action.type === "minus") {
+    //   return state.map((item) => {
+    //     if (item.count === 1) {
+    //       return item;
+    //     } else {
+    //       return { ...item, count: item.count - 1 };
+    //     }
+    //   });
+    // }
     if (action.type === "delete") {
       return state.filter((item) => item.id !== action.payload.id);
     }
+    else if(action.type === "editCount"){
+      return state.map(item=>{
+        if(item.id === action.peyload.id){
+          return action.peyload
+        }
+        return item
+      })
+    }
+  
   }
 
   const handleLogin = () => {

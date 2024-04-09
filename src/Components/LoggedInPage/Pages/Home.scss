@@ -6,6 +6,11 @@
 .divcenter {
   display: flex;
   justify-content: center;
+  width: 100%;
+}
+.newnike{
+  width: 100%;
+  height: 100%;
 }
 
 .pt {
@@ -17,6 +22,20 @@
   font-style: bold;
 }
 
+  .shopnew{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+    font-family: sans-serif;
+    font-weight: 900;
+    &:hover{
+      cursor: pointer;
+      background-color: #ccc;
+    }
+  }
 .plite {
   text-align: center;
   font-size: 20px;
@@ -168,6 +187,7 @@
 .ptrending {
   margin: 20px;
   font-size: 20px;
+  font-weight: 1000;
 }
 
 .trending-div {
@@ -275,7 +295,7 @@
 }
 
 .orangediv {
-  background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_451,c_limit/e3d043ee-e826-448f-9213-3ab2cdef1f10/nike-just-do-it.jpg");
+  background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_451,c_limit/fb8234b8-0aa7-4d44-8f52-6f95578b1b8a/nike-just-do-it.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -284,7 +304,7 @@
   margin: 10px;
 }
 .orangediv2 {
-  background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_451,c_limit/5e36df8e-007f-4b18-bea3-47af5a7ea0d2/nike-just-do-it.png");
+  background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_451,c_limit/c9176bd9-e727-46ad-8bcb-62312cbfd5d5/nike-just-do-it.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -293,7 +313,7 @@
   margin: 10px;
 }
 .orangediv3 {
-  background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_451,c_limit/d9ef237f-b6cf-40ca-8432-928a0bb3abae/nike-just-do-it.jpg");
+  background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_451,c_limit/73de197a-2e67-42aa-b4e6-aeda1883636b/nike-just-do-it.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -362,61 +382,215 @@ a {
     #newicn{
       color: black;
     }
+       .divbgbig{
+        display: flex;
+        justify-content: center;
+       }
 
-    @media only screen and (max-width: 600px) {
+        .divbgone{
+             background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_681,c_limit/ed18ec74-c2b4-4c51-bd73-73328019a144/nike-just-do-it.jpg");
+               background-repeat: no-repeat;
+               background-position: center;
+               background-size: cover;
+               width: 100%;
+               height: 50vh;
+               margin: 10px;
+        }
+        .divbgtwo{
+             background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_681,c_limit/1896944c-fbd9-4369-851f-710143f98786/nike-just-do-it.jpg");
+               background-repeat: no-repeat;
+               background-position: center;
+               background-size: cover;
+               width: 100%;
+               height: 50vh;
+               margin: 10px;
+        }
+           .pbg1{
+            padding: 10px;
+            color: #fff;
+            font-family: sans-serif;
+            font-weight: 100;
+            
+           }
+           .pbg2{
+            padding: 10px;
+            color: #fff;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 100;
+           }
 
-            .pt{
-  color: white;
-         margin-bottom: -5%;
-            }
-            .plite{
-                 color: white;
-            }
-            .shop{
-                 margin: 0;
-                 background-color: white;
-                 color: black;
-            }
-            .areas1 {
-                height: 100%
-            }
-            .areas2 {
-                height: 100%
-            }
-            .areas3 {
-                height: 100%
-            }
-            .peoples-i{
-              height: 100%;
-            }
-            .peoples-i2{
-              height: 100%;
-            }
-            .peoples-i3{
-              height: 100%;
-            }
-            .orangediv{
-              height: 100%;
-            }
-            .orangediv2{
-              height: 100%;
-            }
-            .orangediv3{
-              height: 100%;
-            }
-              .buy{
-                width: 40%;
-                padding: 10px;
-                margin-bottom: 5%;
+          .bgp{
+              margin-top: 35%;
+          }
+              .shop2{
+                    border: none;
+                    background-color: #fff;
+                    color: black;
+                    padding: 10px;
+                    margin: 10px;
+                    border-radius: 20px;
+                    transition: 0.4s;
+                    &:hover{
+                      cursor: pointer;
+                         background-color: #ccc;
+
+                    }
               }
-              .airsimg{
-                width: 100%;
-              }
-              .div-tree{
-                  margin-left: 25%;
-              }
-              .videonew{
-                width: 100%;
-              }
-           
+       
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+       .div-photos{
+        display: block;
+      
+       }
+       .newnike{
+         width: 100%;
+       
+       }
+       .divbgbig{
+        display: block;
+        
+       }
+       .div-airs{
+        display: block;
+       
+       }
+       .area-div{
+        display: block;
+        
+       }
+       .trending-div{
+        display: block;
+      
+       }
+    
+       .people-area{
+        display: block;
+
+       }
+       .orange-area{
+        display: block;
+     
+       }
+  
+      .areas1{
+        height: 70vh;
+      }
+  
+      .areas2{
+        height: 70vh;
+      }
+  
+      .areas3{
+        height: 70vh;
+      }
+        .div-tree{
+          display: none;
+        }
+        .div-menu{
+          display: block;
+          margin-left: 12%;
+        }
+      .ul-nike{
+          display: flex;
+     
+      }
+      .wm{
+        margin-top: 50%;
+      }
+      .wm2{
+        margin-top: 50%;
+      }
+      .wm3{
+        margin-top: 50%;
+      }
+      .li1{
+        padding: 20px;
+      }
+
+   
+      
+ }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {  }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {  }
+
+// // X-Large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {  }
+
+// // XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1200px) and (max-width: 2500px) { 
+  .div-photos{
+    display: flex;
+
+   }
+
+   .divbgbig{
+    display: flex;
+
+   }
+   .div-airs{
+    display: flex;
+    margin-top: 0;
+   }
+   .area-div{
+    display: flex;
+
+   }
+   .trending-div{
+    display: flex;
+    
+   }
+
+   .people-area{
+    display: flex;
+   
+   }
+   .orange-area{
+    display: flex;
+
+   }
+   .areas1{
+    height: 40vh;
+  }
+   .areas2{
+    height: 40vh;
+  }
+   .areas3{
+    height: 40vh;
+  }
+  .div-menu{
+    display: flex;
+  }
+  .ul-nike{
+    display: flex;
+  }
+  .wm{
+    margin-top: 100%;
+  }
+  .wm2{
+    margin-top: 100%;
+  }
+  .wm3{
+    margin-top: 100%;
+  }
+  
+    .div-menu{
+      margin-left: 0;
     }
+     .div-tree{
+      display: block;
+     }
+     .li1{
+      padding: 10px;
+     }
+   
+}

@@ -1,64 +1,272 @@
-   .divimg{
-    background-image: url("https://cdn.store-assets.com/s/983963/i/54733605.jpeg?width=1024");
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: center;
-    width: 50%;
-     height: 50vh;
- 
-   }
+    .divtitle{
+      display: flex;
+        margin-top: 5%;
+        margin: 10px;
+        font-size: 40px;
+        padding: 20px;
+    }
 
-     .bigabout{
+      .divdos{
         display: flex;
-        justify-content: center;
-   padding: 20px;
-     }
+      }
 
-       .divplay{
-          border: 1px solid rgb(42, 108, 238);
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        background-color: rgb(42, 108, 238);
+      .divdos p{
+        margin: 10px;
+        font-size: 20px;
+        font-weight: 100;
+      }
 
-        &:hover{
-            cursor: pointer;
+      .divun p{
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 100;
+      }
+
+        .divmenimg{
+          background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_1374,c_limit/5563f3f8-3bce-4052-b4f8-c7bcb6fa9237/men-s-shoes-clothing-accessories.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          width: 100%;
+          height: 70vh;
         }
-       }
-
-       #play{
-           margin-top: 35%;
-           margin-left: 40%;
-           font-size: 30px;
-             color: white;
-       }
-
-         .div-33{
-            display: flex;
-            justify-content: center;
-             margin-top: 20%;
-         }
+          .pbold{
+            color: white;
+            font-weight: 1000;
+            font-size: 30px;
+            margin-top: 28%;
+         padding: 10px;
 
 
-            .aboutp{
-                  color: rgb(42, 108, 238);;
+          }
+
+          .helper{
+            color: white;
+          }
+
+            .pnobold{
+              color: white;
+              font-family: sans-serif;
+              font-weight: 1100;
+              padding: 10px;
+
+
             }
 
-            .about-title{
-                display: flex;
-                justify-content: center;
-                font-size: 50px;
-                margin-top: 10%;
-              
-           
+
+            .buttonabout{
+          border: none;
+          padding: 10px;
+          margin: 10px;
+          border-radius: 20px;
+          transition: 0.4s;
+          &:hover{
+             cursor: pointer;
+             opacity: 0.7;
+          }
             }
-              .span1{
-                color: white;
+
+              .img90title p{
+                      font-family: sans-serif;
+                      font-weight: 100;
+                      font-size: 20px;
+                      margin: 20px;
               }
 
-              @media only screen and (max-width: 600px) {
-                        .divimg{
-                            width: 100%;
-                            height: 40vh;
+
+              .divimg90{
+                 display: flex;
+                 justify-content: center;
+              }
+
+                .ph90{
+                    width: 100%;
+                }
+
+                  .divimg901{
+                     margin: 10px;
+                  }
+                  .divimg902{
+                     margin: 10px;
+                  }
+                  .divimg903{
+                     margin: 10px;
+                  }
+
+                  .new12{
+                    width: 100%;
+                  }
+
+                  .pbigbold1{
+                    text-align: center;
+                    font-weight: 100;
+                    font-size: 20px;
+                    margin-top: 3%;
+                  }
+
+                  .pbigboldbig{
+                    text-align: center;
+                    font-weight: 1000;
+                    font-size: 50px;
+                    margin: 1%;
+                  }
+
+
+                  .pbigbold2{
+                    text-align: center;
+                    font-weight: 100;
+                    font-size: 20px;
+       
+                  }
+
+                     .shopmen{
+                        border: none;
+                        text-align: center;
+                        padding: 12px;
+                        border-radius: 20px;
+                        color: white;
+                        background-color: black;
+                        width: 100%;
+
+                        transition: 0.4s;
+                        &:hover{
+                          cursor: pointer;
+                          background-color: #ccc;
                         }
-              }
+
+                     }
+                     .shopwomn{
+                        border: none;
+                        text-align: center;
+                        padding: 12px;
+                        border-radius: 20px;
+                        color: white;
+                        background-color: black;
+                        width: 100%;
+
+                        transition: 0.4s;
+                        &:hover{
+                          cursor: pointer;
+                          background-color: #ccc;
+                        }
+
+                     }
+
+                       .divshopmen{
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 1%;
+                       }
+
+
+                         .divpage-1{
+                            background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_681,c_limit/9ef60642-b323-4030-b24e-40d1c8764f8c/men-s-shoes-clothing-accessories.jpg");
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                            width: 100%;
+                            height: 50vh;
+                            margin: 10px;
+                         }
+                         .divpage-2{
+                            background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_681,c_limit/1ab5962f-f473-4355-a7f3-a75356e4a4a4/men-s-shoes-clothing-accessories.jpg");
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                            width: 100%;
+                            height: 50vh;
+                            margin: 10px;
+                         }
+
+                         .divfinishpage{
+                          display: flex;
+                          justify-content: center;
+                         }
+
+                         .finishshop{
+                          border: none;
+                          text-align: center;
+                          padding: 10px;
+                          border-radius: 20px;
+                          color: white;
+                          background-color: black;
+             margin: 8px;
+  
+                          transition: 0.4s;
+                          &:hover{
+                            cursor: pointer;
+                            background-color: #ccc;
+                          }
+                         }
+
+                           .finishp{
+                            font-family: sans-serif;
+                            color: #fff;
+                            font-weight: 100;
+                            margin-top: 45%;
+                            padding: 10px;
+                            font-size: 20px;
+                           }
+
+                             .divwomen{
+                              display: flex;
+                              justify-content: center;
+                             }
+                           .imgwomen{
+                            width: 96%;
+                           }
+
+
+                           .divpage-3{
+                            background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_681,c_limit/bdbc98ba-46e7-4075-b61b-dd7aef077812/women-s-shoes-clothing-accessories.jpg");
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                            width: 100%;
+                            height: 50vh;
+                            margin: 10px;
+                         }
+                         .divpage-4{
+                            background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_681,c_limit/044913f0-3271-4df1-b70a-7eee566663b5/women-s-shoes-clothing-accessories.png");
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                            width: 100%;
+                            height: 50vh;
+                            margin: 10px;
+                         }
+
+                       
+
+                         @media (min-width: 576px) { 
+                             .divmenimg{
+                                 display: block;
+
+                             }
+                             .divimg90{
+                              display: block;
+                             }
+                             .new12{
+                              display: block;
+                           
+                             }
+                             .divfinishpage{
+                              display: block;
+                             }
+                             .divimg90{
+                              display: block;
+                             }
+
+                         }
+
+                         @media (min-width: 1200px) and (max-width: 1500px) { 
+                          .divimg90{
+                            display: flex;
+                           }
+                           .divfinishpage{
+                            display: flex;
+                           }
+                           .divimg90{
+                            display: flex;
+                           }
+                         }
